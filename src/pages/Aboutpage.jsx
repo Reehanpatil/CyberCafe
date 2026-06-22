@@ -55,9 +55,9 @@ export default function AboutPage() {
   return (
     <div className='bg-slate-50'>
       {/* Hero Section */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 px-4 py-20 sm:py-24'>
+      <section className='relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-800 to-slate-900 px-4 py-20 sm:py-24'>
         {/* Decorative pattern */}
-        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:24px_24px]' />
+        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[24px_24px]' />
 
         <div className='relative max-w-4xl mx-auto text-center'>
           <span className='inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-5'>
@@ -139,7 +139,7 @@ export default function AboutPage() {
                   key={feature.title}
                   className='group p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg hover:shadow-blue-900/5 transition-all duration-300'
                 >
-                  <div className='flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 text-white shadow-md mb-4 group-hover:scale-110 transition-transform duration-300'>
+                  <div className='flex items-center justify-center w-12 h-12 rounded-xl bg-linear-to-br from-blue-600 to-blue-800 text-white shadow-md mb-4 group-hover:scale-110 transition-transform duration-300'>
                     <Icon size={22} />
                   </div>
                   <h3 className='text-lg font-bold text-slate-900'>
@@ -158,8 +158,8 @@ export default function AboutPage() {
       {/* Trust / Why Choose Us */}
       <section className='px-4 py-16 sm:py-20'>
         <div className='max-w-5xl mx-auto'>
-          <div className='bg-gradient-to-br from-slate-900 to-blue-900 rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden'>
-            <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:20px_20px]' />
+          <div className='bg-linear-to-br from-slate-900 to-blue-900 rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden'>
+            <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[20px_20px]' />
             <div className='relative'>
               <h2 className='text-2xl sm:text-3xl font-bold text-white'>
                 Why Job-Seekers Trust Us

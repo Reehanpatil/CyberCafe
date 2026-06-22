@@ -159,8 +159,8 @@ export default function HomePage() {
   return (
     <div className='bg-slate-50'>
       {/* Hero + Search */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 px-4 pt-16 sm:pt-20 pb-20 sm:pb-24'>
-        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:24px_24px]' />
+      <section className='relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-800 to-slate-900 px-4 pt-16 sm:pt-20 pb-20 sm:pb-24'>
+        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[24px_24px]' />
 
         <div className='relative max-w-4xl mx-auto text-center'>
           <span className='inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-5'>
@@ -210,7 +210,7 @@ export default function HomePage() {
       <section className='px-4 py-10 sm:py-12'>
         <div className='max-w-6xl mx-auto'>
           <div className='flex items-center gap-2 mb-5'>
-            <span className='w-1.5 h-6 rounded-full bg-gradient-to-b from-pink-500 to-violet-600' />
+            <span className='w-1.5 h-6 rounded-full bg-linear-to-b from-pink-500 to-violet-600' />
             <h2 className='text-lg sm:text-xl font-bold text-slate-900'>
               All Govt Service
             </h2>
@@ -242,7 +242,7 @@ export default function HomePage() {
                         <span
                           className={`flex items-center justify-center w-12 h-12 rounded-xl transition-all duration-300 ${
                             isActive ?
-                              "bg-gradient-to-br from-blue-600 to-blue-800 text-white scale-105"
+                              "bg-linear-to-br from-blue-600 to-blue-800 text-white scale-105"
                             : "bg-blue-50 text-blue-700 group-hover:scale-105"
                           }`}
                         >
@@ -286,7 +286,7 @@ export default function HomePage() {
         <section className='px-4 py-2 sm:py-4 pb-14'>
           <div className='max-w-6xl mx-auto'>
             <div className='flex items-center gap-2 mb-5'>
-              <span className='w-1.5 h-6 rounded-full bg-gradient-to-b from-pink-500 to-violet-600' />
+              <span className='w-1.5 h-6 rounded-full bg-linear-to-b from-pink-500 to-violet-600' />
               <h2 className='text-lg sm:text-xl font-bold text-slate-900'>
                 Portal Service
               </h2>
@@ -309,7 +309,7 @@ export default function HomePage() {
                       <span
                         className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 ${
                           isActive ?
-                            "bg-gradient-to-br from-violet-600 to-fuchsia-600 text-white scale-105"
+                            "bg-linear-to-br from-violet-600 to-fuchsia-600 text-white scale-105"
                           : "bg-violet-50 text-violet-700 group-hover:scale-105"
                         }`}
                       >

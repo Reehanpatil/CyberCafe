@@ -60,8 +60,8 @@ export default function ContactPage() {
   return (
     <div className='bg-slate-50'>
       {/* Hero Section */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 px-4 py-20 sm:py-24'>
-        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:24px_24px]' />
+      <section className='relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-800 to-slate-900 px-4 py-20 sm:py-24'>
+        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[24px_24px]' />
         <div className='relative max-w-4xl mx-auto text-center'>
           <span className='inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-5'>
             <MessageCircle size={14} />
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 key={item.label}
                 className='bg-white rounded-2xl shadow-lg shadow-slate-900/5 border border-slate-100 p-5 text-center hover:-translate-y-1 hover:shadow-xl transition-all duration-300'
               >
-                <div className='flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 text-white mx-auto mb-3 shadow-md'>
+                <div className='flex items-center justify-center w-11 h-11 rounded-xl bg-linear-to-br from-blue-600 to-blue-800 text-white mx-auto mb-3 shadow-md'>
                   <Icon size={20} />
                 </div>
                 <p className='text-xs font-bold text-blue-700 uppercase tracking-wide'>
@@ -202,7 +202,7 @@ export default function ContactPage() {
 
               <button
                 type='submit'
-                className='w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-blue-700 to-blue-900 shadow-md shadow-blue-900/20 hover:shadow-lg hover:shadow-blue-900/30 active:scale-[0.98] transition-all duration-200'
+                className='w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white bg-linear-to-r from-blue-700 to-blue-900 shadow-md shadow-blue-900/20 hover:shadow-lg hover:shadow-blue-900/30 active:scale-[0.98] transition-all duration-200'
               >
                 <Send size={16} />
                 Send Message
@@ -213,8 +213,8 @@ export default function ContactPage() {
           {/* Side Panel */}
           <div className='lg:col-span-2 flex flex-col gap-6'>
             {/* Map placeholder card */}
-            <div className='rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-48 bg-gradient-to-br from-blue-100 to-slate-100 flex items-center justify-center relative'>
-              <div className='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_1px_1px,#1e40af_1px,transparent_0)] bg-[size:18px_18px]' />
+            <div className='rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-48 bg-linear-to-br from-blue-100 to-slate-100 flex items-center justify-center relative'>
+              <div className='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_1px_1px,#1e40af_1px,transparent_0)] bg-size-[18px_18px]' />
               <div className='relative text-center px-4'>
                 <MapPin size={28} className='text-blue-700 mx-auto mb-2' />
                 <p className='text-sm font-semibold text-slate-700'>
@@ -227,8 +227,8 @@ export default function ContactPage() {
             </div>
 
             {/* Trust card */}
-            <div className='bg-gradient-to-br from-slate-900 to-blue-900 rounded-2xl p-6 text-white relative overflow-hidden flex-1'>
-              <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:18px_18px]' />
+            <div className='bg-linear-to-br from-slate-900 to-blue-900 rounded-2xl p-6 text-white relative overflow-hidden flex-1'>
+              <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[18px_18px]' />
               <div className='relative'>
                 <ShieldCheck size={24} className='text-amber-400 mb-3' />
                 <h3 className='font-bold text-lg'>

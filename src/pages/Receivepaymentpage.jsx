@@ -57,8 +57,8 @@ export default function ReceivePaymentPage() {
   return (
     <div className='bg-slate-50 min-h-[calc(100vh-64px)]'>
       {/* Header */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 px-4 pt-10 pb-16 sm:pb-20'>
-        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-[size:24px_24px]' />
+      <section className='relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-800 to-slate-900 px-4 pt-10 pb-16 sm:pb-20'>
+        <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] bg-size-[24px_24px]' />
 
         <div className='relative max-w-2xl mx-auto'>
           <Link
@@ -207,7 +207,7 @@ export default function ReceivePaymentPage() {
 
                 <button
                   type='submit'
-                  className='w-full flex items-center justify-center gap-2 py-3.5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-blue-700 to-blue-900 shadow-md shadow-blue-900/20 hover:shadow-lg active:scale-[0.98] transition-all duration-200'
+                  className='w-full flex items-center justify-center gap-2 py-3.5 rounded-xl text-sm font-bold text-white bg-linear-to-r from-blue-700 to-blue-900 shadow-md shadow-blue-900/20 hover:shadow-lg active:scale-[0.98] transition-all duration-200'
                 >
                   <QrCode size={16} />
                   Generate QR Code

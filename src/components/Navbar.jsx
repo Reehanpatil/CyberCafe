@@ -46,12 +46,12 @@ export default function Navbar() {
         <div className='flex items-center justify-between h-16'>
           {/* Left - Brand */}
           <Link to='/' className='flex items-center gap-2.5 group shrink-0'>
-            <span className='flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 via-violet-600 to-fuchsia-600 text-white shadow-md shadow-violet-500/30 group-hover:shadow-violet-500/50 group-hover:scale-105 transition-all duration-200'>
+            <span className='flex items-center justify-center w-9 h-9 rounded-xl bg-linear-to-br from-indigo-500 via-violet-600 to-fuchsia-600 text-white shadow-md shadow-violet-500/30 group-hover:shadow-violet-500/50 group-hover:scale-105 transition-all duration-200'>
               <Cpu size={19} strokeWidth={2.4} />
             </span>
             <span className='text-xl font-extrabold text-slate-900 tracking-tight'>
               Cyber
-              <span className='bg-gradient-to-r from-indigo-600 to-fuchsia-600 bg-clip-text text-transparent'>
+              <span className='bg-linear-to-r from-indigo-600 to-fuchsia-600 bg-clip-text text-transparent'>
                 Cafe
               </span>
             </span>
@@ -67,7 +67,7 @@ export default function Navbar() {
                   to={link.to}
                   className={`relative px-4 py-2 text-sm font-semibold rounded-full transition-all duration-200 ${
                     isActive ?
-                      "text-white bg-gradient-to-r from-indigo-600 to-violet-600 shadow-md shadow-violet-500/30"
+                      "text-white bg-linear-to-r from-indigo-600 to-violet-600 shadow-md shadow-violet-500/30"
                     : "text-slate-600 hover:text-violet-700 hover:bg-white"
                   }`}
                 >
@@ -83,7 +83,7 @@ export default function Navbar() {
               to='/receive-payment'
               className='group relative inline-flex items-center gap-2 overflow-hidden px-5 py-2.5 text-sm font-bold text-white rounded-full shadow-md shadow-violet-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/40 active:scale-95'
             >
-              <span className='absolute inset-0 bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 transition-transform duration-500 group-hover:scale-110' />
+              <span className='absolute inset-0 bg-linear-to-r from-indigo-600 via-violet-600 to-fuchsia-600 transition-transform duration-500 group-hover:scale-110' />
               <QrCode size={16} className='relative z-10' />
               <span className='relative z-10'>Receive Payment</span>
             </Link>
@@ -139,7 +139,7 @@ export default function Navbar() {
                   style={{ transitionDelay: isOpen ? `${i * 40}ms` : "0ms" }}
                   className={`flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold transition-all duration-200 ${
                     isActive ?
-                      "text-white bg-gradient-to-r from-indigo-600 to-violet-600 shadow-md shadow-violet-500/30"
+                      "text-white bg-linear-to-r from-indigo-600 to-violet-600 shadow-md shadow-violet-500/30"
                     : "text-slate-700 hover:bg-violet-50 hover:text-violet-700 active:scale-[0.98]"
                   }`}
                 >
@@ -154,7 +154,7 @@ export default function Navbar() {
             <Link
               to='/receive-payment'
               onClick={() => setIsOpen(false)}
-              className='flex items-center justify-center gap-2 mx-1 mb-1 px-4 py-3 text-sm font-bold text-white rounded-xl bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 shadow-md shadow-violet-500/30 active:scale-[0.97] transition-all duration-200'
+              className='flex items-center justify-center gap-2 mx-1 mb-1 px-4 py-3 text-sm font-bold text-white rounded-xl bg-linear-to-r from-indigo-600 via-violet-600 to-fuchsia-600 shadow-md shadow-violet-500/30 active:scale-[0.97] transition-all duration-200'
             >
               <QrCode size={17} />
               Receive Payment
