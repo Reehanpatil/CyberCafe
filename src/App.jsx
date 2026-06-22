@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
-import ServicesPage from "./pages/ServicesPage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import ScrollToTop from "./components/ScrollToTop";
-import JobDetailsPage from "./pages/JobDetailsPage";
-import ReceivePaymentPage from "./pages/Receivepaymentpage";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import AboutPage from "./pages/Aboutpage.jsx";
+import ContactPage from "./pages/Contactpage.jsx";
+import ServicesPage from "./pages/Servicespage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
+import JobDetailsPage from "./pages/JobDetailsPage.jsx";
+import ReceivePaymentPage from "./pages/Receivepaymentpage.jsx";
 
 export default function App() {
   return (
