@@ -165,7 +165,7 @@ export default function HomePage() {
         <div className='relative max-w-4xl mx-auto text-center'>
           <span className='inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-5'>
             <Bell size={14} />
-            Updated Daily — Never Miss a Deadline
+            Updated Daily — Never Miss a Deadline Reehan MP
           </span>
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight'>
             Find Your Next <span className='text-amber-400'>Sarkari</span>{" "}
